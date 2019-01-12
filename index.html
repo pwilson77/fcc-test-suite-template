@@ -1,109 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Soccer Survey</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<h1 id ="title" class="col-xl-12 text-center"> Are a real soccer fan?</h1>
-<p id="description" class="text-center">
-  This survey can determine you are a soccer fan or not?
-</p>
-<div class="container col-xl-8">
-  <form id="survey-form">
-    <div class="form-group">
-      <label for="exampleFormControlInput1">What is your name</label>
-      <input type="text" class="form-control" id="name-label" placeholder="Mr Bean">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Email address</label>
-      <input type="email" class="form-control" id="email-label" placeholder="name@example.com">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Number</label>
-      <input type="number" class="form-control" id="number" placeholder="eg 4" min="0" max="11" >
-    </div>
-
-    <div class="form-group">
-      <label for="exampleFormControlSelect1">Select from the list below which player has won the UEFA Champions league before ?</label>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="Messi" disabled id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          Messi
-        </label>
+  <head>
+    <meta charset="UTF-8">
+    <title>Soccer Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 id ="title" class="col-xl-12 text-center"> Are a real soccer fan?</h1>
+    <p id="description" class="text-center">
+        This survey can determine you are a soccer fan or not?
+    </p>
+    <div class="container col-xl-8">
+      <form id="survey-form">
+          <div class="form-group">
+              <label for="exampleFormControlInput1">What is your name</label>
+              <input type="text" class="form-control" id="name-label" placeholder="Mr Bean">
+            </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="email-label" placeholder="name@example.com">
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="MohammedSalah" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          Mohamed Salah
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="CristianoRonaldo" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          Cristiano Ronaldo
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="Neymar" id="defaultCheck1">
-        <label class="form-check-label" for="defaultCheck1">
-          Neymar
-        </label>
-      </div>
+      <div class="form-group">
+          <label for="exampleFormControlInput1">Number</label>
+          <input type="number" class="form-control" id="number" placeholder="eg 4" min="0" max="11" >
+        </div>
 
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Select from the list below which player has won the UEFA Champions league before ?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="Messi" disabled id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                  Messi
+              </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="MohammedSalah" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                   Mohamed Salah
+                </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="CristianoRonaldo" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                     Cristiano Ronaldo
+                  </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Neymar" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Neymar
+                    </label>
+                  </div>
+     
+        </div>
+
+
+          <p>Finally, name how many titles Liverpool has won the UEFA Champions League?</p>
+          
+            <div class="radio">
+            <label><input type="radio" name="optradio" checked>1</label>
+            </div>
+            <div class="radio">
+            <label><input type="radio" name="optradio">2</label>
+            </div>
+            <div class="radio disabled">
+            <label><input type="radio" name="optradio">5</label>
+            </div>
+            
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">In your opinion, where is the best soccer played?</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                  <option>England</option>
+                  <option>Spain</option>
+                  <option>USA</option>
+                  <option>Italy</option>
+                  <option>Germany</option>
+
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="thought">Why you like football in 1 phrase:</label>
+              <textarea class="form-control" rows="5" id="thought"></textarea>
+              </div>
+
+         
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4">
+                  <button class="  btn btn-dark" type="reset">Reset fields</button>
+                  <button id="submit" type="submit" class=" btn btn-dark" ><span class="glyphicon glyphicon-search"></span><a href="#" class=" light">Submit</a></button>
+              </div>
+          
+          
+       </form> 
     </div>
+    
+  </div>
 
+    
 
-    <p>Finally, name how many titles Liverpool has won the UEFA Champions League?</p>
-
-    <div class="radio">
-      <label><input type="radio" name="optradio" checked>1</label>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="optradio">2</label>
-    </div>
-    <div class="radio disabled">
-      <label><input type="radio" name="optradio">5</label>
-    </div>
-
-    <div class="form-group">
-      <label for="exampleFormControlSelect1">In your opinion, where is the best soccer played?</label>
-      <select class="form-control" id="exampleFormControlSelect1">
-        <option>England</option>
-        <option>Spain</option>
-        <option>USA</option>
-        <option>Italy</option>
-        <option>Germany</option>
-
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="thought">Why you like football in 1 phrase:</label>
-      <textarea class="form-control" rows="5" id="thought"></textarea>
-    </div>
-
-
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4">
-      <button class="  btn btn-dark" type="reset">Reset fields</button>
-      <button id="submit" type="submit" class=" btn btn-dark" ><span class="glyphicon glyphicon-search"></span><a href="#" class=" light">Submit</a></button>
-    </div>
-
-
-  </form>
-</div>
-
-</div>
-
-
-
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script  src="js/index.js"></script>
-</body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script  src="js/index.js"></script>
+  </body>
 </html>
